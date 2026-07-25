@@ -80,6 +80,7 @@ export default function Home() {
             <a href="#wards" className="hover:text-amber-300">Wards</a>
             <a href="#services" className="hover:text-amber-300">Services</a>
             <a href="#projects" className="hover:text-amber-300">Projects</a>
+            <a href="#leadership" className="hover:text-amber-300">Leadership</a>
           </nav>
           <a href="#contact" className="rounded-full bg-amber-400 px-5 py-3 text-sm font-semibold text-emerald-950 transition hover:bg-amber-300 focus:ring focus:ring-amber-200">
             Contact us
@@ -306,6 +307,34 @@ export default function Home() {
               height={654}
               className="h-auto w-full max-w-sm"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* 06 — Leadership */}
+      <section id="leadership" className="border-y border-gray-100 bg-gray-50 dark:border-white/10 dark:bg-[#0d1410]">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-16 sm:py-24">
+          <SectionNumber n="06">Leadership</SectionNumber>
+          <div className="mt-8 grid gap-10 md:grid-cols-[auto_1fr] md:items-center">
+            <div className="flex flex-col items-center gap-4 md:items-start">
+              <span className="flex size-32 items-center justify-center rounded-2xl bg-emerald-950 text-5xl font-extrabold text-amber-400">
+                MM
+              </span>
+              <div className="text-center md:text-left">
+                <h2 className="text-2xl font-bold">Hon. Moses Maihankali</h2>
+                <p className="text-sm font-semibold text-emerald-700 dark:text-emerald-400">
+                  Executive Chairman, Kurmi LGA
+                </p>
+              </div>
+            </div>
+            <blockquote className="border-l-4 border-amber-400 pl-6">
+              <p className="max-w-2xl text-xl font-medium leading-relaxed text-gray-700 dark:text-gray-200">
+                &ldquo;Kurmi&apos;s wealth is its land and its people. Our
+                administration is opening up the forest communities — with
+                roads, farm support and honest service — so that no ward is
+                left behind.&rdquo;
+              </p>
+            </blockquote>
           </div>
         </div>
       </section>
